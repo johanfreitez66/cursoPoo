@@ -19,7 +19,7 @@ abstract class Unit {
     }
     public function getName()
     {
-        return $this->name;
+        parent::__construct()
     }
 
     public function takeDamage($damage)
