@@ -1,0 +1,13 @@
+{
+    "name": "game/poo",
+    "description": "Proyecto para Practica del Curso de Programacion Orientada a Objeto",
+    "type": "project",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "files": ["src/helpers.php"],
+        "psr-4": {
+            "Game\\": "src/"
+        }
+    }
+}
