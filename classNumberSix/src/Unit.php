@@ -2,6 +2,7 @@
 
 namespace Game;
 
+
 abstract class Unit
 {
     protected $hp = 40;

@@ -12,9 +12,6 @@ class Soldier extends Unit
     {
         parent::__construct($name);
     }
-
-
-
     public function attack(Unit $opponent)
     {
         show(
