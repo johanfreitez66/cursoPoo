@@ -1,0 +1,19 @@
+{
+    "name": "game/oop",
+    "description": "Proyecto demo para el curso de programacion orientada a objetos",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johan Freitez",
+            "email": "johanfreitez66@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": ["src/helpers.php"],
+        "psr-4": {
+            "Game\\": "src/"
+        }
+    }
+}
