@@ -2,6 +2,7 @@
 
 namespace Styde;
 
+
 require '../vendor/autoload.php';
 
 Translator::set([
@@ -10,6 +11,7 @@ Translator::set([
     'CrossBowAttack' => ':unit dispara una flecha a :opponent',
     'FireBowAttack' => ':unit dispara una flecha de fuego a :opponent',
 ]);
+
 
 $gamersOne = Unit::createSoldier()
             ->setWeapon(new Weapons\BasicSword())
